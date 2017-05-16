@@ -6,23 +6,23 @@ With that said, I will be teaching you with the best of my abilities exactly wha
 
 # What is MVC?
 To start off with, MVC stands for the words Model View Controller, which we will get back to later.
-MVC is essentially an architectural paradigm, meaning that it is a way to think about, and structure 
+MVC is essentially an **architectural paradigm**, meaning that it is a way to think about, and structure 
 your web applications. 
 Developers typically use paradigms as means for structuring and ordering their development projects.
-This does not mean that paradigms are frameworks! Frameworks infact use paradigms for their own structure,
-and so it's best if one learns first that framework's paradigm before they get to know their framework.
+This does not mean that paradigms are frameworks! Frameworks infact are structured *based on* their paradigms, but aren't
+the same as paradigms themselves. And so I feel that it's best if one learns *first* their paradigm well before they get to know their framework.
 
 ### Why MVC?
-MVC is one of the most popular architectures out there, if not the most popular architecture out there 
-for developing web applications. The reason is because of how it recycles reusable code, and how it is based off 
+MVC is one of the most popular architectures out there, if not *the* most popular architecture out there 
+for developing web applications. The reason is because of how it **recycles** reusable code, and how it is based off 
 the transfer or flow of data from the client, to the server, to the database, back to the server,
-and back to the client again. This gives MVC the awesome ability to move its 'backend' section away from the 'visual' portion of an application. 
+and back to the client again. This gives MVC the awesome ability to move its 'backend' section **away** from the 'visual' portion of the web application. 
 If this didn't just give you the ultimate 'aha!' moment, then that means that we probably need to spend a 
-little more time on what the client, the server, and the database all mean. 
+little more time figuring out what the client, the server, and the database all mean. 
 
-- Client: The client is basically the user interacting with the browser. The client never sees the database and can only send requests to the server. The languages that make up the client side are the markdown languages, aka HTML & CSS, and Javascript.
-- Server: The server is the 'middleman' that's sandwiched between both the client and the database. It sends requests from the client to the database and then sends back data from the database to the client on how to display that data. The server can not take the place of the database because it cannot hold any information itself for a 'longterm' period.
-- Database: The database is incharge of storing longterm data of which the client can pull up. It never gets to interact with the client itself, as it can only interact with the server. 
+- **Client**: The client makes up basically what the user interacts with on the browser. The client never sees the database, and it can only send requests to the server. The languages that make up the client side are the markdown languages, aka HTML & CSS, and Javascript.
+- **Server**: The server is the 'middleman' that's sandwiched between both the client and the database. It sends requests from the client to the database and then sends back data from the database to the client on how to display that data. The server can not take the place of the database because it cannot hold any information itself for a 'longterm' period.
+- **Database**: The database is incharge of storing longterm data of which the client can pull up. It never gets to interact with the client itself, as it can only interact with the server. 
                                                                   
 ### How does MVC connect?
 MVC can be thought of in the same way as the client, server, and database since you have one part 
