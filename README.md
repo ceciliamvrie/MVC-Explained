@@ -1,5 +1,7 @@
 First, I would like to say thank you Matius for introducing to me this quote:
-`"Writing is nature's way of exposing how sloppy your thinking is." ~Guindon`
+  
+  `"Writing is nature's way of exposing how sloppy your thinking is." ~Guindon`
+
 With that said, I will be teaching you with the best of my abilities exactly what I think MVC is...
 
 # What is MVC?
@@ -12,9 +14,9 @@ and so it's best if one learns first that framework's paradigm before they get t
 
 ### Why MVC?
 MVC is one of the most popular architectures out there, if not the most popular architecture out there 
-for developing web applications. The reason is because of how it is based off of the 'flow' of a website, 
-meaning the transfer or flow of data from the client, to the server, to the database, back to the server,
-and to the client again. 
+for developing web applications. The reason is because of how it recycles reusable code, and how it is based off 
+the transfer or flow of data from the client, to the server, to the database, back to the server,
+and back to the client again. This gives MVC the awesome ability to move its 'backend' section away from the 'visual' portion of an application. 
 If this didn't just give you the ultimate 'aha!' moment, then that means that we probably need to spend a 
 little more time on what the client, the server, and the database all mean. 
 
@@ -30,3 +32,5 @@ we get into a little more depth...
 - Model: Controls all interactions with the data, such as storing, or recieving data from the database. Like the database, the model only interacts with the controller.
 - View: The view is composed of everything that gets rendered onto the browser, meaning that is is basically everything that the user sees, and the only thing that the user can see. This is incharge of displaying information to the user, and it can only interact with the controller. 
 - Controller: The controller is arguably the most important part of MVC as it is in charge of taking info from the user, processing it, sending it to the model, and sending it back to the view as information on how it should compile the data. 
+
+With that said, I hope you have at least a marginally larger understanding of what MVC is and its importance of why you should use it, good luck programming!
