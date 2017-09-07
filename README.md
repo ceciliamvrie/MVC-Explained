@@ -1,4 +1,4 @@
-First, I would like to say thank you Matius for introducing to me this quote:
+First, I would like to say thank you Mattias for introducing to me this quote:
   
   `"Writing is nature's way of exposing how sloppy your thinking is." ~Guindon`
 
